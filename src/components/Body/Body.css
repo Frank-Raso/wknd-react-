@@ -9,11 +9,10 @@
  }
 
  .picDiv {
-     height: 300px;
-     width: 300px;
-
-     justify-content: center;
      align-items: center;
+     height: 333px;
+     width: 333px;
+     justify-content: center;
      padding: 40px;
  }
 
