@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
 }
 
 .App-header {
@@ -7,6 +10,8 @@
   padding: 1em;
   color: white;
   margin-bottom: 1em;
+  border-radius: 15px;
+
 }
 
 .App-title {
