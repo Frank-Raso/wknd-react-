@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  } 
+  
+  Body {
+    text-align: center;
+    background-color: #161b28;
+    color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: large;
+    height: 100vh;
+    width: auto;
+  }
+  
+  .picDiv {
+  
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .picButton {
+    cursor: pointer;
+    background-color: rgba(105, 105, 105, 0.494);
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+  
+  }
+  
+  
+  img {
+    border-radius: 15px;
+  }
+  
+  img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all .7s ease;
+  }
+  
