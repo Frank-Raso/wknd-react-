@@ -1,54 +1,54 @@
  Body {
-    text-align: center;
-    background-color: #161b28;
-    color: blanchedalmond;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: large;
+     text-align: center;
+     background-color: #161b28;
+     color: blanchedalmond;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bolder;
+     font-size: large;
 
-} 
+ }
 
-.picDiv {
-    height: 300px;
-    width: 300px;
+ .picDiv {
+     height: 300px;
+     width: 300px;
 
-    justify-content: center;
-    align-items: center;
-    padding:40px;
-}
+     justify-content: center;
+     align-items: center;
+     padding: 40px;
+ }
 
-.picDiv img{
-    height: 300px;
-  width: auto;
-  display: inline;
-}
-.picButton {
-    cursor: pointer;
-    background-color: rgba(105, 105, 105, 0.494);
-    color: rgb(0, 0, 0);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    padding: 5px;
-    border-radius: 5px;
-}
+ .picDiv img {
+     height: 300px;
+     width: auto;
+     display: inline;
+ }
 
-.picList {
-    display: grid;
-    grid-template-columns:  repeat(3, 1fr) ;
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 12px;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+ .picButton {
+     cursor: pointer;
+     background-color: rgba(105, 105, 105, 0.494);
+     color: rgb(0, 0, 0);
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bolder;
+     padding: 5px;
+     border-radius: 5px;
+ }
 
-
+ .picList {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+     grid-gap: 12px;
+     margin-left: 10%;
+     margin-right: 10%;
+     padding: 20px;
+ }
 
  img {
-    border-radius: 15px;
-}
+     border-radius: 15px;
+ }
 
-img:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: all .7s ease;
-} 
+ img:hover {
+     cursor: pointer;
+     transform: scale(1.2);
+     transition: all .7s ease;
+ }
