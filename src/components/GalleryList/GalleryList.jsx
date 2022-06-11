@@ -5,10 +5,8 @@ function GalleryList(props) {
     const [hook, setHook] = useState(null);
 
     return (
-        <div>
-            <ul>
+        <div className='picList'>
                 {props.picsArray.map(item => (<GalleryItem item={item} />))}
-            </ul>
         </div>
     )
 }
