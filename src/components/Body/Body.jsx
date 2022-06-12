@@ -8,7 +8,7 @@ function Body(props) {
     const [pics, setPics] = useState([]);
     useEffect(() => {
         getPic();
-    }, [{pics}]);
+    }, [{ pics }]);
 
     function getPic() {
         axios.get('/gallery').then((response) => {
@@ -20,7 +20,7 @@ function Body(props) {
     }
     return (
         <div>
-                <GalleryList picsArray={pics} />
+            <GalleryList picsArray={pics} />
         </div>
     )
 }

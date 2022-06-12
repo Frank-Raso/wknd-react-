@@ -5,21 +5,10 @@
      font-family: 'Courier New', Courier, monospace;
      font-weight: bolder;
      font-size: large;
-
  }
 
  .picDiv {
-     align-items: center;
-     height: 333px;
-     width: 333px;
-     justify-content: center;
-     padding: 40px;
- }
-
- .picDiv img {
-     height: 300px;
-     width: auto;
-     display: inline;
+     padding: 20px;
  }
 
  .picButton {
@@ -36,14 +25,13 @@
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-template-rows: repeat(3, 1fr);
-     grid-gap: 12px;
-     margin-left: 10%;
-     margin-right: 10%;
+
      padding: 20px;
  }
 
  img {
      border-radius: 15px;
+     height: 333px;
  }
 
  img:hover {
