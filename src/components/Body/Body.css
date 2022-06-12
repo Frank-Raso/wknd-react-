@@ -21,6 +21,13 @@
      border-radius: 5px;
  }
 
+ .picButton:hover {
+     cursor: pointer;
+     transform: scale(1.05);
+     transition: all 0s ease;
+
+ }
+
  .picList {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
@@ -42,5 +49,13 @@
 
  .picDivDescription {
      font-size: larger;
+
+ }
+
+ .picDivDescription:hover {
+     font-size: larger;
+     cursor: pointer;
+     transform: scale(1.05);
+     transition: all .3s ease;
 
  }
