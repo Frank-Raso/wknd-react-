@@ -1,7 +1,7 @@
  Body {
      text-align: center;
      background-color: #161b28;
-     color: blanchedalmond;
+     color: whitesmoke;
      font-family: 'Courier New', Courier, monospace;
      font-weight: bolder;
      font-size: large;
@@ -38,4 +38,9 @@
      cursor: pointer;
      transform: scale(1.2);
      transition: all .7s ease;
+ }
+
+ .picDivDescription {
+     font-size: larger;
+
  }

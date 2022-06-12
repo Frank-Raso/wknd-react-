@@ -23,7 +23,7 @@ function GalleryItem(props) {
                 show ?
                     <img onClick={toggleShow} src={props.item.path} />
                     :
-                    <p onClick={toggleShow}>{props.item.description}</p>
+                    <p className='picDivDescription' onClick={toggleShow}>{props.item.description}</p>
             }
             <br />
             <button onClick={likePic} className='picButton'>Like</button>
